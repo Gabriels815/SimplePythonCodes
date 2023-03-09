@@ -5,11 +5,20 @@ cartas = {0 : "Ás", 1 : "Um", 2 : "Dois", 3 : "Três", 4 : "Quatro", 5 : "Cinco
 
 naipes = {1 : "Paus", 2 : "Corações", 3 : "Espadas", 4 : "Ouros"}
 
+def cartaRandom():
+    cartaRandom = r(0, 14)
+    nomeCarta = cartas.get(cartaRandom)
+    return nomeCarta;
 
-cartaRandom = r(0, 14)
-naipeRandon = r(1, 5)
+def naipeRandom():
+    naipeRandom = r(1, 5)
+    nomeNaipe = naipes.get(naipeRandom)
+    return nomeNaipe
 
 input = input("Você deseja saber seu destino | [n] - não [s] - sim \n")
 if input == "n":
-    print("Sua carta é" )
-
+    print("Que pena, eu queria mostrar algo interessante sobre você!")
+elif input == "s":
+    print("")
+else:
+    print("")
