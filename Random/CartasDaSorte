@@ -15,7 +15,7 @@ def naipeRandom():
     nomeNaipe = naipes.get(naipeRandom)
     return nomeNaipe
 
-def verDestino():
+def verSorte():
     entrada = input("Você quer saber qual sua carta da sorte! | [n] - não [s] - sim \n")
     if entrada == "n":
         print("Que bom, porque o destino é você quem faz! \n")
