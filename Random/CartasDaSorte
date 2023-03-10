@@ -25,4 +25,4 @@ def verSorte():
         print("Não entendi sua resposta! \n")
     print("Nada disso importa, apenas viva sua vida!")
 
-verDestino()
+verSorte()
